@@ -63,7 +63,7 @@ int main()
     if(twelve_hour_format)
     {
         bool pm = (buffer[5] & 0x10) == 0x10;
-        cout << "12h Time (h:m:s am/pm)\t" << bcdToDec(hours) << ":" << bcdToDec(minutes) << ":" << bcdToDec(seconds) << pm ? " pm\n" : " am\n";
+        cout << "12h Time (h:m:s am/pm)\t" << bcdToDec(hours) << ":" << bcdToDec(minutes) << ":" << bcdToDec(seconds) << (pm ? " pm\n" : " am\n");
     }
     else
     {

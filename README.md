@@ -1,6 +1,9 @@
 # RTC-PCF8523
 Program to get date time, day of week and battery health from PCF8523 real time clock using I2C on RPI.
 
+## Interfacing with Raspberry Pi
+<img src="/images/connections.png" alt="Schematic" width="500">
+
 ## Running the program
 1. Compile using make.
    ```console
